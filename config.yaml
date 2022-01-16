@@ -1,0 +1,24 @@
+auth:
+  registry.hub.docker.com:
+    username: USERNAME
+    password: PASSWORD
+images:
+  gcr.io/kaniko-project/executor:debug,latest: v5cn/kaniko-executor
+  k8s.gcr.io/sig-storage/csi-attacher: v5cn/csi-attacher
+  k8s.gcr.io/sig-storage/csi-provisioner: v5cn/csi-provisioner
+  k8s.gcr.io/sig-storage/csi-node-driver-registrar: v5cn/csi-node-driver-registrar
+  k8s.gcr.io/sig-storage/csi-resizer: v5cn/csi-resizer
+  k8s.gcr.io/sig-storage/csi-snapshotter: v5cn/csi-snapshotter
+  k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: v5cn/nfs-subdir-external-provisioner
+  k8s.gcr.io/kube-state-metrics/kube-state-metrics: v5cn/kube-state-metrics
+  k8s.gcr.io/prometheus-adapter/prometheus-adapter: v5cn/prometheus-adapter
+  k8s.gcr.io/metrics-server/metrics-server: v5cn/metrics-server
+  k8s.gcr.io/ingress-nginx/controller: v5cn/ingress-nginx-controller
+  k8s.gcr.io/git-sync/git-sync: v5cn/git-sync  
+  k8s.gcr.io/kube-apiserver: v5cn/kube-apiserver
+  k8s.gcr.io/kube-controller-manager: v5cn/kube-controller-manager
+  k8s.gcr.io/kube-scheduler: v5cn/kube-scheduler
+  k8s.gcr.io/kube-proxy: v5cn/kube-proxy
+  k8s.gcr.io/pause: v5cn/pause
+  k8s.gcr.io/etcd: v5cn/etcd
+  coredns/coredns: v5cn/coredns
