@@ -22,15 +22,3 @@ images:
   k8s.gcr.io/pause: v5cn/pause
   k8s.gcr.io/etcd: v5cn/etcd
   coredns/coredns: v5cn/coredns
-  gcr.io/google-samples/microservices-demo/emailservice: v5cn/google-samples-microservices-emailservice
-  gcr.io/google-samples/microservices-demo/checkoutservice: v5cn/google-samples-microservices-checkoutservice
-  gcr.io/google-samples/microservices-demo/recommendationservice: v5cn/google-samples-microservices-recommendationservice
-  gcr.io/google-samples/microservices-demo/frontend: v5cn/google-samples-microservices-frontend
-  gcr.io/google-samples/microservices-demo/paymentservice: v5cn/google-samples-microservices-paymentservice
-  gcr.io/google-samples/microservices-demo/productcatalogservice: v5cn/google-samples-microservices-productcatalogservice
-  gcr.io/google-samples/microservices-demo/cartservice: v5cn/google-samples-microservices-cartservice
-  gcr.io/google-samples/microservices-demo/loadgenerator: v5cn/google-samples-microservices-loadgenerator
-  gcr.io/google-samples/microservices-demo/currencyservice: v5cn/google-samples-microservices-currencyservice
-  gcr.io/google-samples/microservices-demo/shippingservice: v5cn/google-samples-microservices-shippingservice
-  gcr.io/google-samples/microservices-demo/adservice: v5cn/google-samples-microservices-adservice
-  gcr.io/google-samples/hello-app: v5cn/google-samples-hello-app
