@@ -33,3 +33,4 @@ images:
   gcr.io/google-samples/microservices-demo/currencyservice: v5cn/google-samples-microservices-currencyservice
   gcr.io/google-samples/microservices-demo/shippingservice: v5cn/google-samples-microservices-shippingservice
   gcr.io/google-samples/microservices-demo/adservice: v5cn/google-samples-microservices-adservice
+  gcr.io/google-samples/hello-app: v5cn/google-samples-hello-app
