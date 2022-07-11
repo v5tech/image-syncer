@@ -24,6 +24,6 @@ images:
 #   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init: v5cn/tekton-pullrequest-init
 #   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: v5cn/tekton-workingdirinit
 #   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: v5cn/tekton-webhook
-  gcr.io/google.com/cloudsdktool/cloud-sdk: v5cn/tekton-cloud-sdk
-  ghcr.io/distroless/busybox: v5cn/tekton-busybox
+  gcr.io/google.com/cloudsdktool/cloud-sdk:302.0.0-slim: v5cn/tekton-cloud-sdk:302.0.0-slim
+  ghcr.io/distroless/busybox:latest-20220414: v5cn/tekton-busybox:latest-20220414
   mcr.microsoft.com/powershell:nanoserver: v5cn/tekton-powershell:nanoserver
