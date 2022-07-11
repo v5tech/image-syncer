@@ -15,3 +15,12 @@ images:
 #   gcr.io/google-samples/microservices-demo/shippingservice: v5cn/google-samples-microservices-shippingservice
 #   gcr.io/google-samples/microservices-demo/adservice: v5cn/google-samples-microservices-adservice
   gcr.io/google-samples/hello-app: v5cn/google-samples-hello-app
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.37.2@sha256:dda70f21181d01f606bf37103a3f5b65cdfe64412208fcf6feb4c54977f189fd: v5cn/tekton-controller:v0.37.2
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter:v0.37.2@sha256:0b31b1c02ff458ad9b7b81cbdf8f028bd54699fa151f221d1e8de6817db93427: v5cn/tekton-kubeconfigwriter:v0.37.2
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init:v0.37.2@sha256:927aa808433d17e315a258b98e2f1a55f8258e0cb782ccb76280646d0dbe17b5: v5cn/tekton-git-init:v0.37.2
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:v0.37.2@sha256:54f4d25dee6205e9280ffc41acf8dad448cf5f3a318f47dcee49382529bc666f: v5cn/tekton-entrypoint:v0.37.2
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:v0.37.2@sha256:0232234015006651b7316421187c40627c39450a9a30ea9bcc82a69b82f8ce12: v5cn/tekton-nop:v0.37.2
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter:v0.37.2@sha256:e32300d37fc9670e72f5bad6476090c5c2140bdefa874c3ddb025a99ef726f2a: v5cn/tekton-imagedigestexporter:v0.37.2
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init:v0.37.2@sha256:7f93752a7af8128aa794c4014b25471af974d3d4e3042d3cf17de0e8c58432e1: v5cn/tekton-pullrequest-init:v0.37.2
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:v0.37.2@sha256:74450b8a54a995a8a91382f52970bc14e344ea25fc28482f76dae7b399f35ba9: v5cn/tekton-workingdirinit:v0.37.2
+  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.37.2@sha256:2e7187c08e5a43168c89840a74c4609e648e0a391c5b3da8544cf9b835b2d0f9: v5cn/tekton-webhook:v0.37.2
