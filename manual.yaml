@@ -29,3 +29,4 @@ images:
 #   mcr.microsoft.com/powershell:nanoserver: v5cn/tekton-powershell:nanoserver
   gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: v5cn/tekton-dashboard
   springcloud/spring-cloud-kubernetes-configserver: v5cn/spring-cloud-kubernetes-configserver
+  springcloud/spring-cloud-kubernetes-configuration-watcher: v5cn/spring-cloud-kubernetes-configuration-watcher
