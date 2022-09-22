@@ -30,4 +30,5 @@ images:
 #   gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: v5cn/tekton-dashboard
 #   springcloud/spring-cloud-kubernetes-configserver: v5cn/spring-cloud-kubernetes-configserver
 #   springcloud/spring-cloud-kubernetes-configuration-watcher: v5cn/spring-cloud-kubernetes-configuration-watcher
-  springcloud/spring-cloud-kubernetes-discoveryserver: v5cn/spring-cloud-kubernetes-discoveryserver
+#   springcloud/spring-cloud-kubernetes-discoveryserver: v5cn/spring-cloud-kubernetes-discoveryserver
+  quay.io/rimusz/hostpath-provisioner: v5cn/hostpath-provisioner
