@@ -16,6 +16,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: Kesin11/actions-timeline@v1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Checkout
       uses: actions/checkout@v2
 
@@ -23,7 +27,7 @@ jobs:
       run: |
         wget https://github.com/AliyunContainerService/image-syncer/releases/download/${IMAGE_SYNCER_VERSION}/image-syncer-${IMAGE_SYNCER_VERSION}-linux-amd64.tar.gz
         tar -zxf image-syncer-${IMAGE_SYNCER_VERSION}-linux-amd64.tar.gz
-        
+
     - name: init config.yaml with env
       run: |
         sed -i "s#USERNAME#${DOCKERHUB_USERNAME}#g" config.yaml
