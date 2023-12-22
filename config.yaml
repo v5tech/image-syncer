@@ -14,6 +14,8 @@ images:
   k8s.gcr.io/prometheus-adapter/prometheus-adapter: v5cn/prometheus-adapter
   k8s.gcr.io/metrics-server/metrics-server: v5cn/metrics-server
   k8s.gcr.io/ingress-nginx/controller: v5cn/ingress-nginx-controller
+  registry.k8s.io/ingress-nginx/controller: v5cn/ingress-nginx-controller
+  registry.k8s.io/ingress-nginx/kube-webhook-certgen: v5cn/ingress-nginx-kube-webhook-certgen
   k8s.gcr.io/git-sync/git-sync: v5cn/git-sync  
   k8s.gcr.io/kube-apiserver: v5cn/kube-apiserver
   k8s.gcr.io/kube-controller-manager: v5cn/kube-controller-manager
