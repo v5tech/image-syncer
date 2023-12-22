@@ -31,4 +31,6 @@ images:
 #   springcloud/spring-cloud-kubernetes-configserver: v5cn/spring-cloud-kubernetes-configserver
 #   springcloud/spring-cloud-kubernetes-configuration-watcher: v5cn/spring-cloud-kubernetes-configuration-watcher
 #   springcloud/spring-cloud-kubernetes-discoveryserver: v5cn/spring-cloud-kubernetes-discoveryserver
-  quay.io/rimusz/hostpath-provisioner: v5cn/hostpath-provisioner
+#   quay.io/rimusz/hostpath-provisioner: v5cn/hostpath-provisioner
+  registry.k8s.io/ingress-nginx/controller: v5cn/ingress-nginx-controller
+  registry.k8s.io/ingress-nginx/kube-webhook-certgen: v5cn/ingress-nginx-kube-webhook-certgen
