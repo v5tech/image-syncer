@@ -36,3 +36,4 @@ images:
   registry.k8s.io/ingress-nginx/kube-webhook-certgen: v5cn/ingress-nginx-kube-webhook-certgen
 #   gcr.io/google-samples/xtrabackup: v5cn/xtrabackup
   registry.k8s.io/external-dns/external-dns: v5cn/external-dns
+  registry.k8s.io/metrics-server/metrics-server: v5cn/metrics-server
